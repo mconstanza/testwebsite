@@ -1,0 +1,125 @@
+/*Defaults*/
+
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+  color: #003366;
+  font-weight: normal;
+  line-height: 1.1em;
+  margin: 0  0 .5em 0;
+
+}
+h1{ font-size: 2.0em; }
+h2{ font-size: 1.5em; }
+a{
+  color: silver;
+  text-decoration: none;
+}
+  a:hover, active { text-decoration: underline; }
+
+/* BODY */
+body{
+  font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: white;
+}
+#page{
+  margin: 0
+}
+
+
+/* TOP NAV */
+#topnav{
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  float: right;
+  background: #003366;
+}
+  #topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+    #topnav ul li{
+      float: right;
+    }
+      #topnav ul li a{
+        display: block;
+        padding: 20px;
+        text-align: center;
+        background: #003366;
+        color: white;
+      }
+      #topnav ul li a:hover{
+        background-color: #0a1429;
+        box-shadow: 0px 1px 1px white;
+      }
+      #topnav ul li a:active{
+        background-color: blue;
+      }
+  #logo{
+    float: left;
+    font-size: 2.0em;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+
+/* SIDE NAV
+#sidenav{
+  width: 60%;
+  text-align: center;
+  float: left;
+}
+  #sidenav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:#003366;
+    height: 50%;
+    position: fixed;
+    overflow: auto;
+  }
+    #sidenav ul li{
+
+  }
+
+    #sidenav ul li a{
+      display: block;
+      padding: 20px;
+      background: #003366;
+      color: white;
+  }
+    #sidenav ul li a:hover{
+      background-color: #0a1429;
+      box-shadow: 0px 1px 1px #666;
+  }
+    #sidenav ul li a:active{
+      background-color: blue;
+  }
+*/
+
+/* CONTENT */
+#content{
+  margin: 30px 0;
+  background: white;
+  padding: 20px;
+  clear: both;
+
+}
+
+#content, ul li a{
+  box-shadow: 0px 1px 1px #999; }
+
+#footer{
+  border-bottom: 1px #ccc solid;
+  margin-bottom: 10px;
+}
+  #footer p{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: silver;
+  }
