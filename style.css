@@ -123,3 +123,16 @@ body{
     font-size: 80%;
     color: silver;
   }
+
+/* CONTACT FORM */
+
+#emailme{
+  text-align: center;
+}
+
+form{
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
